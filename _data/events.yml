@@ -1,0 +1,38 @@
+- year: 2016
+  title: 上海开放数据创新营
+  date: 2016.06.04 - 2016.06.05
+  venue:
+    name: 同济大学创意设计学院
+    address: 上海市杨浦区阜新路281号
+    postcode: 200092
+    latitude: 31.279541
+    longitude: 121.508098
+  organizers:
+    - name: 中国工业设计研究院
+      www: "http://www.cidichina.com"
+      ci: "CIDI.png"
+    - name: 开放数据中国
+      www: "http://opendatachina.com"
+      ci: "ODC.png"
+    - name: 同济大学DESIS实验室
+      www:
+      ci: "DESIS.png"
+  partners:
+    - name: 주식회사 리스트
+      www: "http://listinc.kr/"
+      ci: "list.svg"
+    - name: 국립중앙도서관
+      www: "http://www.nl.go.kr/"
+      ci: "nl.svg"
+    - name: 주식회사 리스트
+      www: "http://listinc.kr/"
+      ci: "list.svg"
+    - name: 주식회사 리스트
+      www: "http://listinc.kr/"
+      ci: "list.svg"
+    - name: 주식회사 리스트
+      www: "http://listinc.kr/"
+      ci: "list.svg"
+    - name: 주식회사 리스트
+      www: "http://listinc.kr/"
+      ci: "list.svg"

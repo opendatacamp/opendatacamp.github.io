@@ -1,0 +1,17 @@
+- text: 关于
+  url: "#about"
+
+- text: 日程
+  url: "#schedule"
+
+- text: 嘉宾
+  url: "#speakers"
+
+- text: 场地
+  url: "#logistics"
+
+- text: 组织单位
+  url: "#organizers"
+
+- text: 报名
+  url: "http://onoffmix.com/event/61268"

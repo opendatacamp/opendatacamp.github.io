@@ -1,0 +1,102 @@
+{% for event in site.data.events %}
+  {% if event.year == page.year %}
+    {% assign event = event %}
+  {% endif %}
+{% endfor %}
+<!-- Schedule Section -->
+<section id="schedule">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>日程</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        {% for talks in site.data.talks %}
+          {% if talks.year == event.year %}
+            <ul class="timetable-list">
+              {% for session in talks.talks %}
+                {% if session.talks %}
+                  {% for talk in session.talks %}
+                    <li class="timetable-row">
+                      <dl>
+                        <dt class="time">{{ talk.start }} ~ {{ talk.end }}</dt>
+                        <dd class="talk">
+                          <ul>
+                            <li>
+                              <div>
+                                <p>
+                                  <span class="title">{{ talk.title | strip_html }}</span>
+                                  {% if talk.speaker %}
+                                    {% for speaker in site.data.speakers %}
+                                      {% if speaker.id == talk.speaker %}
+                                        &middot;
+                                        <span class="name">{% if speaker.biography %}<a href="#speaker-{{ speaker.id }}">{% endif %}{{ speaker.name | strip_html }}{% if speaker.biography %}</a>{% endif %}</span>
+                                        <span class="affiliation">{{ speaker.affiliation | strip_html }}</span>
+                                      {% endif %}
+                                    {% endfor %}
+                                  {% endif %}
+                                </p>
+                              </div>
+                              <div class="meta">
+                                {% if talk.slides %}<a href="{{ talk.slides }}" title="简报分享">{% endif %}<i class="fa fa-slideshare fa-lg"></i>{% if talk.slides %}</a>{% endif %}
+                                <i class="fa fa-microphone fa-lg"></i>
+                              </div>
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </li>
+                  {% endfor %}
+                {% else %}
+                  <li class="timetable-row">
+                    <dl>
+                      <dt class="time">{{ session.start }} ~ {{ session.end }}</dt>
+                      <dd class="talk">
+                        <ul>
+                          <li>
+                            <div>
+                              <p>
+                                <span{% if session.type == 'keynote' %} class="title"{% endif %}>{{ session.title | strip_html }}</span>
+                                {% if session.speaker %}
+                                  {% for speaker in site.data.speakers %}
+                                    {% if speaker.id == session.speaker %}
+                                      &middot;
+                                      <span class="name">{% if speaker.biography %}<a href="#speaker-{{ speaker.id }}">{% endif %}{{ speaker.name | strip_html }}{% if speaker.biography %}</a>{% endif %}</span>
+                                      <span class="affiliation">{{ speaker.affiliation | strip_html }}</span>
+                                    {% endif %}
+                                  {% endfor %}
+                                {% endif %}
+                              </p>
+                            </div>
+                            <div class="meta">
+                              {% case session.type %}
+                                {% when "opening" %}
+                                <i class="fa fa-sign-in fa-lg"></i>
+                                {% when "keynote" %}
+                                {% if session.slides %}<a href="{{ session.slides }}" title="简报分享">{% endif %}<i class="fa fa-slideshare fa-lg"></i>{% if session.slides %}</a>{% endif %}
+                                <i class="fa fa-certificate fa-lg"></i>
+                                {% when "lunch" %}
+                                <i class="fa fa-cutlery fa-lg"></i>
+                                {% when "break" %}
+                                <i class="fa fa-coffee fa-lg"></i>
+                                {% when "closing" %}
+                                <i class="fa fa-sign-out fa-lg"></i>
+                              {% endcase %}
+                            </div>
+                          </li>
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

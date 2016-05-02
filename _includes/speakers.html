@@ -1,0 +1,60 @@
+{% for event in site.data.events %}
+  {% if event.year == page.year %}
+    {% assign event = event %}
+  {% endif %}
+{% endfor %}
+{% for talks in site.data.talks %}
+  {% if talks.year == event.year %}
+    {% assign sessions = talks.day1 %}
+  {% endif %}
+{% endfor %}
+<!-- Speakers Section -->
+<section id="speakers" class="even">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>嘉宾</h2>
+        <hr class="star-light">
+      </div>
+    </div>
+    <div class="col-lg-10 col-lg-offset-1">
+      <ul class="speakers">
+        {% for speaker in site.data.speakers %}
+            <li id="speaker-{{ speaker.id }}" class="speaker">
+              <div class="picture"><img src="../images/speakers/{{ speaker.id }}.png" alt="{{ speaker.name }}"></div>
+              <div class="description">
+                <h3>{{ speaker.name }}</h3>
+                <div>
+                  <p class="small">
+                    {{ speaker.description }}
+                  </p>
+                  <ul class="biography">
+                    {% for item in speaker.biography %}
+                      <li>{{ item }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+              <ul class="media">
+                {% if speaker.twitter %}
+                  <li><i class="fa fa-twitter fa-lg"></i><a href="https://twitter.com/{{ speaker.twitter }}">&#64;{{ speaker.twitter }}</a></li>
+                {% endif %}
+                {% if speaker.facebook %}
+                  <li><i class="fa fa-facebook fa-lg"></i><a href="https://www.facebook.com/{{ speaker.facebook }}">Facebook</a></li>
+                {% endif %}
+                {% if speaker.slideshare %}
+                  <li><i class="fa fa-slideshare fa-lg"></i><a href="http://www.slideshare.net/{{ speaker.slideshare }}">SlideShare</a></li>
+                {% endif %}
+                {% if speaker.github %}
+                  <li><i class="fa fa-github fa-lg"></i><a href="https://github.com/{{ speaker.github }}">GitHub</a></li>
+                {% endif %}
+                {% if speaker.www %}
+                  <li><i class="fa fa-globe fa-lg"></i><a href="{{ speaker.www }}">WWW</a></li>
+                {% endif %}
+              </ul>
+            </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

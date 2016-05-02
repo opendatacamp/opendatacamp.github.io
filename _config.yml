@@ -1,0 +1,11 @@
+# Site Settings
+acronym: SHODC
+title: 上海开放数据创新营
+description: "上海开放数据创新营是上海开放数据周面向公众的主要活动，在为期两天的活动中将为公众送上一场数据盛宴。"
+author: Feng Gao
+baseurl: ""
+url: ""
+
+# Build Settings
+markdown: kramdown
+permalink: pretty

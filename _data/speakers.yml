@@ -1,0 +1,130 @@
+- id: epmap
+  name: 刘春蕾
+  affiliation: 上海青悦
+  biography:
+    - "성균관대학교 문헌정보학과 교수"
+    - "국제정보대학협의회(iScools) 차기 의장"
+- id: sgoh
+  name: 오삼균
+  affiliation: 성균관대학교
+  description: "1995년 美 시라큐스대학에서 정보학 박사를 취득하였으며, 그 이전 1994년부터 워싱턴대 정보대학 교수에 임용되었다. 1998년부터 성균관대 문헌정보학과 교수로 재직중이다."
+  biography:
+    - "성균관대학교 문헌정보학과 교수"
+    - "국제정보대학협의회(iScools) 차기 의장"
+- id: wjkim
+  name: 김우주
+  affiliation: 연세대학교
+  description: "시맨틱웹 마이닝 및 지식관리, 인공지능과 웹서비스가 주 관심사이며 특히, 지능형웹, 지능형 시맨틱웹에 관심이 많다. 최근에는 오픈 데이터와 함께 웹을 조금 더 풍요롭게 할 수 있는 데이터 중심의 웹에 관심이 많다."
+  biography:
+    - "연세대학교 산업공학과 교수"
+    - "KAIST 경영정보학 박사"
+    - "KAIST 경영과학 석사"
+  www: "http://smartweb.yonsei.ac.kr/"
+- id: supark
+  name: 박상언
+  affiliation: 경기대학교
+  description: "KAIST에서 시맨틱웹과 인공지능을 전공했고, 주로 시맨틱 웹, 데이터 마이닝, 지식관리, 웹서비스 분야를 대상으로 연구를 수행하였다. 특히 지능형 웹에 관심이 많았으며, 최근에는 소셜 네트워크를 대상으로 한 빅데이터 분석과 데이터 중심의 웹에 관심이 많다."
+  biography:
+    - "경기대학교 경영정보학과 교수"
+    - "KAIST 경영공학 석사, 박사"
+    - "한국지능정보시스템학회 이사"
+  facebook: "sangun.park.355"
+- id: jhlee
+  name: 이종훈
+  affiliation: SNBSOFT
+  description: "정부기관에서 잠자고 있는 데이터를 실제사업에 적용하는 분야에 관심이 많다. 최근 공공데이터와 민간영역의 데이터를 매쉬업하여 한국지도를 중국어, 영어, 일본어로 서비스하는 API플랫폼을 사업화했다. 데이터와 공간정보 기술을 접목하여 문화.관광산업에 적용하는 프로젝트를 진행중에 있다."
+  biography:
+    - "에스앤비소프트 IT사업부 팀장"
+    - "코드포서울 활동가"
+    - "DirectAuto4u 창업자"
+  facebook: "Ethan.Jonghoon.Lee"
+- id: jekim
+  name: 김정은
+  affiliation: 서울대학교
+  description: "서울대학교에서 헬스케어 분야의 기능성 게임, 유비쿼터스 건강정보기술, 환자안전 문제에 대한 정보기술의 활용 등에 관심을 두고 간호 및 의료정보학 분야의 연구를 수행하고 있다. 과거 대한의료정보학회 총무이사와 세계간호정보학술대회(NI 2016)의 Secretary General을 지냈으며, 현재는 의료헬스 기능성 게임 한국 포럼을 만들어 운영하고 있다."
+  biography:
+    - "서울대학교 간호대학 교수"
+    - "서울대학교 소비자건강정보학연구실(CHIC Lab.) 지도교수"
+    - "의료헬스 기능성 게임 한국 포럼(Games for Health Korea Forum) 의장"
+    - "대한환자안전학회 부회장"
+  facebook: "KimJeongeun0424"
+  www: "http://www.snuchic.com/"
+- id: mjlee
+  name: 이명진
+  affiliation: LiST
+  description: "LOD에 남다른 열정을 보이고 있으며 지능형 시맨틱웹 구축에 관심이 많다. 다양한 커뮤니티에서 활동하고 있으며 Devpia XML 시삽등을 엮임했고, '소설같은 JSP2', '소설같은 XML과 XML Web Services', '자바 개발자를 위한 XML 프로그래밍' 등을 집필했다. LOD 모델링 전문가이며 다양한 영역에서의 LOD 모델링 경험을 보유하고 있다."
+  biography:
+    - "연세대학교 정보산업공학 박사"
+    - "주식회사 리스트 이사"
+  twitter: "MyungjinLee"
+  facebook: "mjinlee"
+  slideshare: "onlyjiny"
+- id: wjkim2
+  name: 김완종
+  affiliation: KISTI
+  description: "KISTI(한국과학기술정보연구원)에서 각종 과학기술정보를 공개하는 서비스하는 NDSL (National Digital Science Library)을 담당하고 있으며, NDSL을 활용한 과학기술 오픈 데이터(LOD)에 관심이 많다."
+  biography:
+    - "성균관대학교 문헌정보학 박사"
+    - "한국과학기술정보연구원 실장"
+- id: ymkim
+  name: 김영민
+  affiliation: 한국시설안전공단
+  description: "한국시설안전공단 시설물정보센터에 재직 중이며 '시설물의 안전관리에 관한 특별법'에 따른 시설물정보관리종합시스템(FMS) 구축&middot;운영을 담당하고 있다. 시설물의 안전 및 유지관리 정보와 ICT 와의 융합 등에 관심이 많다."
+  biography:
+    - "시설물정보관리종합시스템(FMS) 구축&middot;운영 총괄 담당자"
+    - "한국과학기술대학교 대학원 컴퓨터공학과 졸업"
+  facebook: "forqfla"
+- id: yjchoi
+  name: 최유진
+  affiliation: 국립중앙도서관
+  biography:
+    - "국립중앙도서관 디지털자료운영부 디지털기획과 사무관 &mdash; 디지털콘텐츠 확충 및 활용 업무"
+    - "국립중앙도서관 세종관 정책자료과 &mdash; 정책정보서비스 제공"
+- id: yhcho
+  name: 조용현
+  affiliation: 서울특별시청
+  description: "서울시 공공데이터 담당자로 재직중이며 서울시에서 보유한 행정데이터들을 찾고 관련 법령에 따라 시민에게 제공하는 역활을 수행하고 있다. 코드포서울 및 해커톤 참여를 통해 시민과 소통하는 것을 즐기며 스노보드와 오픈데이터를 활용하는데 많은 관심이 있는 코드포서울 활동가이다."
+  biography:
+    - "서울특별시청 정보기획관 통계데이터담당관 데이터개방팀"
+    - "서울특별시 공공데이터 개방 정책 및 열린 데이터 광장 운영 담당자"
+    - "고려대학교 컴퓨터정보통신대학원 졸업"
+  twitter: "mmauge"
+  facebook: "schpeltor"
+  github: "AugeCho"
+- id: brkim
+  name: 김보람
+  affiliation: LiST
+  description: "웹 서비스와 시맨틱 웹을 다루는 전산장이(Toolsmith)였고, 웹이 바꾸는 세상을 고민하는 혁신가(Innovator)로 살아가고 있다. 지난 십여 년간 웹 기술을 다뤄왔으며, 특히 데이터와 서비스의 웹에 대해 높은 관심을 갖고 있다. 현재는 주식회사 리스트의 전략기획실장으로 있으며, 오픈 놀리지(Open Knowledge), 코드포서울(Code for Seoul) 등의 커뮤니티에서 활동하고 있다."
+  biography:
+    - "주식회사 리스트 전략기획실장"
+    - "코드포서울 활동가"
+    - "오픈놀리지 활동가"
+  facebook: "jgkim"
+  github: "jgkim"
+  slideshare: "echo4ngel"
+  www: "http://jayg.org/"
+- id: hsjung
+  name: 정호식
+  affiliation: NAVER
+  description: "SK Communications (2005.01 ~ 2005.12) &mdash; 싸이월드, 네이트검색 연동기획, 네이트사전<br>Yahoo! Korea (2000.10 ~ 2005.01) &mdash; 사전 기획 및 PM, 전문자료검색 기획 및 PM, 국통검 민간 적용 컨소시엄 PM"
+  biography:
+    - "네이버 (2007.02 ~ 현재) 네이버전문정보(academic.naver.com) 담당"
+    - "네이버데이터랩(datalab.naver.com) 담당"
+- id: kclee
+  name: 이규철
+  affiliation: 충남대학교
+  description: "1997년 국내에 최초로 XML 기술을 소개하였으며, 그 이후로 XML 기반 전자문서관리, 영구기록관리, e-비즈니스(ebXML) 표준, DBMS 개발 등 다수의 사업 및 100여 건의 연구를 수행하였다. 최근에는 학술정보에 LOD를 적용하는 연구를 진행하였으며, 전자정부, IoT 등 다양한 분야에 시맨틱 웹 기술과 LOD를 융합할 수 있는 연구를 수행 중이다."
+  biography:
+    - "충남대학교 컴퓨터공학과 교수"
+    - "웹코리아포럼 의장"
+    - "서울대학교 컴퓨터공학 박사"
+    - "한국전자거래학회 이사"
+  www: "http://dblab.cnu.ac.kr/"
+- id: shmaeng
+  name: 맹성현
+  affiliation: KAIST
+  description: "KAIST에서 전산학과 교수와 웹 사이언스공학전공의 책임 교수직을 맡고 있으며, KAIST-Microsoft Research 협력 연구 센터(KMCC)의 센터장을 맡고 있다. 서던메소디스트 대학에서 컴퓨터공학 석사와 박사 학위를 취득한 뒤 미국 시라큐스 대학에서 영년직 교수를 역임하였다. 어휘의미론에 중점을 둔 자연어 처리 기술과 차세대 검색 기술을 바탕으로 경험 마이닝, 정보 추출과 같은 텍스트 마이닝 기술에 대한 연구를 중점적으로 수행하고 있으며, 2013년에는 'Experiential Knowledge Mining'을 제목으로 하는 영문 서적을 출간하였다."
+  biography:
+    - "KAIST 전산학부 교수"
+    - "서던메소디스트 대학교 대학원 전산학 석사, 박사"
+  www: "http://ir.kaist.ac.kr/"

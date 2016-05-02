@@ -1,0 +1,100 @@
+- year: 2016
+  day1:
+  - title: "签到"
+    start: "09:30"
+    end: "10:00"
+    type: opening
+  - title: 主旨演讲：开放数据与社会创新
+    start: "10:00"
+    end: "10:45"
+    speaker: francesca
+    type: keynote
+  - title: "闪电秀+讨论：数字创新与可视化作品展示"
+    start: "11:00"
+    end: "12:30"
+    speaker: desis
+    type: standard
+  - title: "培训：用R处理和可视化地理空间数据"
+    start: "11:00"
+    end: "12:30"
+    speaker: enrlang
+    type: standard
+  - title: "午餐（自行解决）"
+    start: "12:30"
+    end: "13:30"
+    type: lunch
+  - title: "休息&签到"
+    start: "13:30"
+    end: "14:00"
+    type: break
+  - title: "工作坊：环境数据的地理空间分析和可视化"
+    start: "14:00"
+    end: "15:30"
+    speaker: epmap
+    type: standard
+  - title: "培训：语义网络与人文数据开放"
+    start: "14:00"
+    end: "15:30"
+    speaker: shlib
+    type: standard
+  - title: "休息&签到"
+    start: "15:30"
+    end: "16:00"
+    type: break
+  - title: "工作坊：开放数据桌游及其设计"
+    start: "16:00"
+    end: "17:30"
+    speaker: feng
+    type: standard
+  day2:
+  - title: "签到"
+    start: "09:30"
+    end: "10:00"
+    type: opening
+  - title: 主旨演讲：开放数据创新与参与式城市发展
+    start: "10:00"
+    end: "10:45"
+    speaker: feng
+    type: keynote
+  - title: "闪电秀+讨论：新数据环境下的城市创新案例及技术手段"
+    start: "11:00"
+    end: "12:30"
+    speaker: urbandata
+    type: standard
+  - title: "工作坊：数据可视化"
+    start: "11:00"
+    end: "12:30"
+    speaker: desis
+    type: standard
+  - title: "午餐（自行解决）"
+    start: "12:30"
+    end: "13:30"
+    type: lunch
+  - title: "休息&签到"
+    start: "13:30"
+    end: "14:00"
+    type: break
+  - title: "工作坊：畅想{数据+食品安全}"
+    start: "14:00"
+    end: "15:30"
+    speaker: epmap
+    type: standard
+  - title: "培训：城市思维与城市创新"
+    start: "14:00"
+    end: "15:30"
+    speaker: shlib
+    type: standard
+  - title: "休息&签到"
+    start: "15:30"
+    end: "16:00"
+    type: break
+  - title: "讨论：数据新闻"
+    start: "16:00"
+    end: "17:30"
+    speaker: dt
+    type: standard
+  - title: "工作坊：开放数据桌游及其设计"
+    start: "16:00"
+    end: "17:30"
+    speaker: feng
+    type: standard

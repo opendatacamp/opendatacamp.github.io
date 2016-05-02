@@ -1,0 +1,18 @@
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="brand-heading" property="http://purl.org/dc/terms/title">{{ site.title | strip_html }}</h1>
+        <div class="intro-text">
+          <span class="name">{{ site.title | strip_html }} </span>
+          <hr class="star-primary">
+          <span class="title">{{ event.date| strip_html }} </span><br/>
+          <span class="title">{{event.venue.address| strip_html }}</span>
+        </div>
+        <a href="#about" class="btn btn-circle">
+          <span class="fa fa-angle-double-down animated"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
