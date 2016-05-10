@@ -1511,9 +1511,9 @@ tbody.collapse.in { display: table-row-group; }
 
 .nav-tabs { border-bottom: 1px solid #BCC3C9; }
 .nav-tabs > li { float: left; margin-bottom: -1px; }
-.nav-tabs > li > a { margin-right: 2px; line-height: 1.42857; border: 1px solid transparent; border-radius: 4px 4px 0 0; }
+.nav-tabs > li > a { margin-right: 2px; line-height: 1.42857; border: 1px solid transparent; border-radius: 4px 4px 0 0; font-size: 30px;}
 .nav-tabs > li > a:hover { border-color: #BCC3C9 #BCC3C9 #BCC3C9; }
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { color: #20293F; background-color: #FFFFFF; border: 1px solid #BCC3C9; border-bottom-color: transparent; cursor: default; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { color: #20293F; background-color: #FFFFFF; border: 1px solid #BCC3C9; border-bottom-color: transparent; cursor: default; font-size: 30px;}
 
 .nav-pills > li { float: left; }
 .nav-pills > li > a { border-radius: 4px; }

@@ -10,8 +10,10 @@
 - text: 场地
   url: "#logistics"
 
+- text: 报名
+  url: "#registration"
+
 - text: 组织单位
   url: "#organizers"
 
-- text: 报名
-  url: "http://onoffmix.com/event/61268"
+

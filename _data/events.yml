@@ -17,22 +17,22 @@
     - name: 同济大学DESIS实验室
       www:
       ci: "DESIS.png"
+    - name: 同济大学设计创意学院
+      www:
+      ci: "tongji.png"
   partners:
-    - name: 주식회사 리스트
-      www: "http://listinc.kr/"
-      ci: "list.svg"
-    - name: 국립중앙도서관
+    - name: 上海图书馆
+      www: "www.library.sh.cn"
+      ci: "shlib.png"
+    - name: 城市数据团
       www: "http://www.nl.go.kr/"
-      ci: "nl.svg"
-    - name: 주식회사 리스트
+      ci: "metrodata.png"
+    - name: 美蒽朗
       www: "http://listinc.kr/"
-      ci: "list.svg"
-    - name: 주식회사 리스트
+      ci: "enerlang.png"
+    - name: 上海青悦
       www: "http://listinc.kr/"
-      ci: "list.svg"
-    - name: 주식회사 리스트
+      ci: "epmap.png"
+    - name: 位和科技
       www: "http://listinc.kr/"
-      ci: "list.svg"
-    - name: 주식회사 리스트
-      www: "http://listinc.kr/"
-      ci: "list.svg"
+      ci: "weihe.png"

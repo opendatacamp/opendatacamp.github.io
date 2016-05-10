@@ -14,8 +14,8 @@
     </div>
     <div class="row">
      <ul class="nav nav-tabs">
-          <li class="active"><a data-toggle="tab" href="#day1">Day 1</a></li>
-          <li><a data-toggle="tab" href="#day2">Day 2</a></li>
+          <li class="active"><a data-toggle="tab" href="#day1">6月4日</a></li>
+          <li><a data-toggle="tab" href="#day2">6月5日</a></li>
       </ul>
       <div class="col-lg-10 col-lg-offset-1 tab-content">
        <div id="day1" class="tab-pane fade in active">
@@ -69,7 +69,7 @@
                                   {% for speaker in site.data.speakers %}
                                     {% if speaker.id == session.speaker %}
                                       &middot;
-                                      <span class="name">{% if speaker.biography %}<a href="#speaker-{{ speaker.id }}">{% endif %}{{ speaker.name | strip_html }}{% if speaker.biography %}</a>{% endif %}</span>
+                                      <span class="name">{% if speaker.id %}<a href="#speaker-{{ speaker.id }}">{% endif %}{{ speaker.name | strip_html }}{% if speaker.id %}</a>{% endif %}</span>
                                       <span class="affiliation">{{ speaker.affiliation | strip_html }}</span>
                                     {% endif %}
                                   {% endfor %}
@@ -124,7 +124,7 @@
                                     {% for speaker in site.data.speakers %}
                                       {% if speaker.id == talk.speaker %}
                                         &middot;
-                                        <span class="name">{% if speaker.biography %}<a href="#speaker-{{ speaker.id }}">{% endif %}{{ speaker.name | strip_html }}{% if speaker.biography %}</a>{% endif %}</span>
+                                        <span class="name">{% if speaker.id %}<a href="#speaker-{{ speaker.id }}">{% endif %}{{ speaker.name | strip_html }}{% if speaker.id %}</a>{% endif %}</span>
                                         <span class="affiliation">{{ speaker.affiliation | strip_html }}</span>
                                       {% endif %}
                                     {% endfor %}
@@ -155,7 +155,7 @@
                                   {% for speaker in site.data.speakers %}
                                     {% if speaker.id == session.speaker %}
                                       &middot;
-                                      <span class="name">{% if speaker.biography %}<a href="#speaker-{{ speaker.id }}">{% endif %}{{ speaker.name | strip_html }}{% if speaker.biography %}</a>{% endif %}</span>
+                                      <span class="name">{% if speaker.id %}<a href="#speaker-{{ speaker.id }}">{% endif %}{{ speaker.name | strip_html }}{% if speaker.id %}</a>{% endif %}</span>
                                       <span class="affiliation">{{ speaker.affiliation | strip_html }}</span>
                                     {% endif %}
                                   {% endfor %}
