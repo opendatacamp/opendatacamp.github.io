@@ -3,6 +3,15 @@
     <div class="container">
       <div class="row">
         <div class="footer-col">
+          <h1>指导单位</h1>
+          <ul class="credits">
+            {% for organization in event.supervisor %}
+            <li><a href="{{ organization.www }}"><img src="../images/organizations/{{ organization.ci }}" alt="{{ organization.name}}"></a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      <div class="row">
+        <div class="footer-col">
           <h1>主办方</h1>
           <ul class="credits">
             {% for organization in event.organizers %}

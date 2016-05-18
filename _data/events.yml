@@ -1,12 +1,16 @@
 - year: 2016
-  title: 上海开放数据创新营
+  title: 开放数据创新营
   date: 2016.06.04 - 2016.06.05
   venue:
-    name: 同济大学创意设计学院
-    address: 上海市杨浦区阜新路281号
+    name: 同济大学设计创意学院
+    address: 上海市杨浦区阜新路281号二期楼
     postcode: 200092
     latitude: 31.279541
     longitude: 121.508098
+  supervisor:
+    - name: 上海市经济和信息化委员会
+      www: "http://www.sheitc.gov.cn"
+      ci: "sheitc.png"
   organizers:
     - name: 中国工业设计研究院
       www: "http://www.cidichina.com"
@@ -25,14 +29,11 @@
       www: "www.library.sh.cn"
       ci: "shlib.png"
     - name: 城市数据团
-      www: "http://www.nl.go.kr/"
       ci: "metrodata.png"
     - name: 美蒽朗
-      www: "http://listinc.kr/"
       ci: "enerlang.png"
     - name: 上海青悦
-      www: "http://listinc.kr/"
+      www: "http://epmap.org"
       ci: "epmap.png"
     - name: 位和科技
-      www: "http://listinc.kr/"
       ci: "weihe.png"

@@ -1,20 +1,19 @@
 - year: 2016
   day1:
+  - title: "数据可视化展览"
+    start: "10:30"
+    end: "15:30"
+    type: standard
   - title: "签到"
-    start: "09:30"
-    end: "10:00"
+    start: "10:30"
+    end: "11:00"
     type: opening
-  - title: 主旨演讲：开放数据与社会创新
-    start: "10:00"
-    end: "10:45"
-    speaker: desis
-    type: keynote
-  - title: "闪电秀+讨论：数字创新与可视化作品展示"
+  - title: "讲座：开放数据创新"
     start: "11:00"
     end: "12:30"
     speaker: desis
     type: standard
-  - title: "培训：用R处理和可视化地理空间数据"
+  - title: "工作坊：用R处理和可视化地理空间数据"
     start: "11:00"
     end: "12:30"
     speaker: enerlang
@@ -32,21 +31,20 @@
     end: "15:30"
     speaker: epmap
     type: standard
-  - title: "培训：语义网络与人文数据开放"
+  - title: "讲座：语义网络与人文数据开放"
     start: "14:00"
     end: "15:30"
     speaker: shlib
     type: standard
   day2:
+  - title: "数据可视化展览"
+    start: "10:30"
+    end: "15:30"
+    type: standard
   - title: "签到"
-    start: "09:30"
-    end: "10:00"
+    start: "10:30"
+    end: "11:00"
     type: opening
-  - title: 主旨演讲：开放数据创新与参与式城市发展
-    start: "10:00"
-    end: "10:45"
-    speaker: odc
-    type: keynote
   - title: "闪电秀+讨论：新数据环境下的城市创新案例及技术手段"
     start: "11:00"
     end: "12:30"
@@ -65,12 +63,12 @@
     start: "13:30"
     end: "14:00"
     type: break
-  - title: "工作坊：开放数据桌游及其设计"
+  - title: "工作坊：开放数据桌游"
     start: "14:00"
     end: "15:30"
     speaker: odc
     type: standard
-  - title: "培训：城市思维与城市创新"
+  - title: "工作坊：城市思维与城市创新"
     start: "14:00"
     end: "15:30"
     speaker: aecom
