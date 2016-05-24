@@ -8,7 +8,7 @@
     start: "10:30"
     end: "11:00"
     type: opening
-  - title: "讲座：开放数据创新探索"
+  - title: "工作坊：数据可视化"
     start: "11:00"
     end: "12:30"
     speaker: desis
@@ -50,10 +50,10 @@
     end: "12:30"
     speaker: metrodata
     type: standard
-  - title: "工作坊：数据可视化"
+  - title: "工作坊：开放数据桌游"
     start: "11:00"
     end: "12:30"
-    speaker: desis
+    speaker: odc
     type: standard
   - title: "午餐（自行解决）"
     start: "12:30"
