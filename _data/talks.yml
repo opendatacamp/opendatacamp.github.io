@@ -50,11 +50,6 @@
     end: "12:30"
     speaker: metrodata
     type: standard
-  - title: "工作坊：开放数据桌游"
-    start: "11:00"
-    end: "12:30"
-    speaker: odc
-    type: standard
   - title: "午餐（自行解决）"
     start: "12:30"
     end: "13:30"
