@@ -36,7 +36,7 @@
     - name: 城市数据团
       ci: "metrodata.png"
     - name: AECOM
-      ci: "metrodata.png"
+      ci: "AECOM.png"
       www: "http://www.aecom.com"
 
 
