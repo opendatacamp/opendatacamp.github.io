@@ -23,6 +23,10 @@
     - name: 同济大学设计创意学院
       ci: "tongji.png"
   partners:
+    - name: 同济大学设计创意学院
+      ci: "tongji.png"
+    - name: 同济大学DESIS实验室
+      ci: "DESIS.png"
     - name: 美蒽朗
       ci: "enerlang.png"
     - name: 上海图书馆
@@ -38,5 +42,9 @@
     - name: AECOM
       ci: "AECOM.png"
       www: "http://www.aecom.com"
+    - name: 开放数据中国
+      www: "http://opendatachina.com"
+      ci: "ODC.png"
+
 
 

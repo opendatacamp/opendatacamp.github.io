@@ -12,7 +12,7 @@
         </div>
       <div class="row">
         <div class="footer-col">
-          <h1>主办方</h1>
+          <h1>主办单位</h1>
           <ul class="credits">
             {% for organization in event.organizers %}
             <li><a href="{{ organization.www }}"><img src="../images/organizations/{{ organization.ci }}" alt="{{ organization.name}}"></a></li>
@@ -21,7 +21,7 @@
         </div>
       <div class="row">
         <div class="footer-col">
-          <h1>内容合作伙伴</h1>
+          <h1>内容贡献</h1>
           <ul class="credits">
             {% for organization in event.partners %}
             <li><a href="{{ organization.www }}"><img src="../images/organizations/{{ organization.ci }}" alt="{{ organization.name}}"></a></li>
