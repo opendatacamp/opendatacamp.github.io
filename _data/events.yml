@@ -24,17 +24,17 @@
       ci: "tongji.png"
   partners:
     - name: 美蒽朗
-      ci: "http://enerlang.png"
+      ci: "enerlang.png"
     - name: 上海图书馆
       www: "http://www.library.sh.cn"
       ci: "shlib.png"
     - name: 上海青悦
       www: "http://epmap.org"
-      ci: "http://epmap.png"
+      ci: "epmap.png"
     - name: 位和科技
       ci: "weihe.png"
     - name: 城市数据团
-      ci: "http://metrodata.png"
+      ci: "metrodata.png"
     - name: AECOM
       ci: "metrodata.png"
       www: "http://www.aecom.com"
