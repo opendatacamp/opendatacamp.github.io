@@ -19,21 +19,24 @@
       www: "http://opendatachina.com"
       ci: "ODC.png"
     - name: 同济大学DESIS实验室
-      www:
       ci: "DESIS.png"
     - name: 同济大学设计创意学院
-      www:
       ci: "tongji.png"
   partners:
-    - name: 上海图书馆
-      www: "www.library.sh.cn"
-      ci: "shlib.png"
-    - name: 城市数据团
-      ci: "metrodata.png"
     - name: 美蒽朗
-      ci: "enerlang.png"
+      ci: "http://enerlang.png"
+    - name: 上海图书馆
+      www: "http://www.library.sh.cn"
+      ci: "shlib.png"
     - name: 上海青悦
       www: "http://epmap.org"
-      ci: "epmap.png"
+      ci: "http://epmap.png"
     - name: 位和科技
       ci: "weihe.png"
+    - name: 城市数据团
+      ci: "http://metrodata.png"
+    - name: AECOM
+      ci: "metrodata.png"
+      www:"http://www.aecom.com"
+
+
