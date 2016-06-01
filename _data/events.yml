@@ -18,10 +18,10 @@
     - name: 开放数据中国
       www: "http://opendatachina.com"
       ci: "ODC.png"
-    - name: 同济大学DESIS实验室
-      ci: "DESIS.png"
     - name: 同济大学设计创意学院
       ci: "tongji.png"
+    - name: 社会创新和可持续设计联盟
+      ci: "DESIS.png"
   partners:
     - name: 同济大学设计创意学院
       ci: "tongji.png"
